@@ -7,7 +7,7 @@
           这时候可以选择应用data中写一个isChange来决定跳转时是true还是false，
 ![Code](/screenPics/changeCss.jpg)
 ####   核心代码在于{isChange[2]?'same':null}，判断是否修改isChange的值
-![Code](/screenPics/changeCss2.jpg)
+![changeCss2](/screenPics/changeCss2.jpg)
 
 ###    2.    wx.navigateBack({
 ###              dellta:2
@@ -19,9 +19,9 @@
 ###    3. input框中初始value
        之前用html和css的时候，初始值都是用value，然后用onfocus事件改变，在微信小程序中，包含写好的placeholder 可以直接录入input框中的初始value
 ###    5. 获取输入框的值
-![Code](/screenPics/getInput.jpg)
+![getInput](/screenPics/getInput.jpg)
 
 
-![Code](/screenPics/firstDay.mp4)
+![firstDay](/screenPics/firstDay.mp4)
 
 
