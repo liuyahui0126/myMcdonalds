@@ -22,6 +22,3 @@
 ![getInput](/screenPics/getInput.jpg)
 
 
-![firstDay](/screenPics/firstDay.mp4)
-
-
