@@ -5,7 +5,8 @@
 ### 跳转页面时改变css样式
 ##### 由于微信小程序不能获取dom节点，在redirectTo的时候就不能将css样式直接改变，
 ##### 这时候可以选择应用data中写一个isChange来决定跳转时是true还是false，
-![Code](screenPics/)
+![Code](screenPics/changeCss.jpg)
+![mp4](screenPics/firstDay.jpg)
 
 ### wx.navigateBack({
   dellta:2
