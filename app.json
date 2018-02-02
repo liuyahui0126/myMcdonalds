@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "projects/index/index",
+    "projects/my/my",
+    "projects/scanCode/scanCode",
+    "projects/scoreLogin/scoreLogin",
+    "projects/register/register"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Mcdonalds",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  }
+}

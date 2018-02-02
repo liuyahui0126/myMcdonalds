@@ -1,0 +1,89 @@
+/* projects/index/index.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.header{
+  width: 100%;
+  flex: 4;
+  background-color: #fde7bb;
+}
+.header-img image{
+  width: 240rpx;
+  height: 120rpx;
+  position: relative;
+  left: 50%;
+  margin-left: -120rpx;
+  margin-top: 100rpx;
+}
+.header-title{
+  text-align: center;
+}
+.header-title text:nth-of-type(1){
+  display: inline-block;
+  font-size: 36rpx;
+  line-height: 36rpx;
+  margin-top: 10rpx;
+}
+.header-title text:nth-of-type(2){
+  display: inline-block;
+  font-size: 32rpx;
+  margin-top: 20rpx;
+}
+.bodyer{
+  width: 98%;
+  flex: 5;
+  background-color: #fff;
+  margin: 20rpx auto 0 auto;
+}
+.bodyer .list{
+  display: inline-block;
+  margin-right: 9rpx;
+  margin-bottom: 10rpx;
+  background-color: #ffc324;
+  width: 32%;
+  height: 350rpx;
+  text-align: center;
+}
+.bodyer .list:nth-of-type(3),
+.bodyer .list:nth-of-type(6){
+  margin-right: 0;
+}
+.bodyer .list image{
+  display: block;
+  width: 120rpx;
+  height: 120rpx;
+  margin:60rpx auto 20rpx auto;
+}
+.bodyer .list text{
+  display: block;
+  font-size: 26rpx;
+}
+.footer{
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 200rpx;
+  margin-top: 10rpx;
+}
+.footer .icon{
+  text-align: center;
+  flex: 1;
+}
+.footer .icon image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.footer .icon text{
+  display: block;
+  font-size: 20rpx;
+}
+.footer .icon .same{
+  color: #ffc324;
+}

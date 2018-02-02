@@ -1,0 +1,25 @@
+/* projects/scoreLogin/scoreLogin.wxss */
+.container{
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.container image{
+  display: block;
+  margin: 0rpx auto;
+  width: 200rpx;
+  height: 200rpx;
+  padding-top: 200rpx;
+  padding-bottom: 50rpx;
+}
+.container text{
+  font-size: 32rpx;
+}
+.container button{
+  margin-top: 20rpx;
+  width: 50%;
+  background-color: #ffc324;
+  font-size: 30rpx;
+  color: #fff;
+}

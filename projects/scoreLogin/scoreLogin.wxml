@@ -1,0 +1,6 @@
+<!--projects/scoreLogin/scoreLogin.wxml-->
+<view class="container">
+  <image src='/images/blacklogo.png'></image>
+  <text>您未注册麦享会，暂无会员二维码</text>
+  <button bindtap='login'>立即注册</button>
+</view>
