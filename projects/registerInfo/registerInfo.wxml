@@ -1,0 +1,31 @@
+<!--projects/registerInfo/registerInfo.wxml-->
+<view class="container">
+  <view class='myPhoto'>
+    <image src='{{avatarUrl}}'></image>
+  </view>
+  <view class='info'>
+    <view class="info-inp">
+      <text>昵称 | </text>
+      <input class='same' placeholder='{{nickName}}'></input>
+    </view>
+    <view class="info-inp">
+      <text>性别 | </text>
+      <picker mode="selector" range="{{sex}}" value="{{sexIndex}}" bindchange="sex">
+        <text>{{sex[sexIndex]}}</text>
+      </picker>
+    </view>
+    <view class="info-inp constellation">
+      <text>星座 | </text>
+      <picker mode="selector" range="{{constellation}}" value="{{coIndex}}" bindchange="constellation">
+        <text>{{constellation[coIndex]}}</text>
+      </picker>
+    </view>
+    <view class="info-inp">
+      <text>地区 | </text>
+      <input class='same' placeholder='{{province}}'></input>
+    </view>
+  </view>
+  <view class='save'>
+    <button bindtap='save'>保存</button>
+  </view>
+</view>

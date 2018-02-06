@@ -4,7 +4,8 @@
     "projects/my/my",
     "projects/scanCode/scanCode",
     "projects/scoreLogin/scoreLogin",
-    "projects/register/register"
+    "projects/register/register",
+    "projects/registerInfo/registerInfo"
   ],
   "window": {
     "navigationBarBackgroundColor": "#000",

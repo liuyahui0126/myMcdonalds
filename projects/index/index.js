@@ -48,14 +48,25 @@ Page({
     }
   },
   myScore:function(){
-    wx.navigateTo({
-      url: '../scoreLogin/scoreLogin',
+    wx.getStorage({
+      key: 'nickName',
+      success:  (res) =>{ 
+          wx.navigateTo({
+            url: '../scanCode/scanCode',
+          })
+      },
+      fail:(res)=>{
+        wx.navigateTo({
+          url: '../scoreLogin/scoreLogin',
+        })
+      }
     })
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
 
   },
 

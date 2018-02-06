@@ -6,13 +6,6 @@ Page({
    */
   data: {
   },
-  register: function () {
-    if(this.data.key == this.data.password && this.data.phone){
-      wx.redirectTo({
-        url: '../scanCode/scanCode',
-      })
-    }
-  },
   phoneNum: function (e) {
     this.setData({
       phone: e.detail.value
@@ -21,6 +14,12 @@ Page({
   keyWord: function (e) {
     this.setData({
       key: e.detail.value
+    })
+  },
+  register:function(e){
+    wx.redirectTo({
+      url: '../registerInfo/registerInfo',
+      delta:3
     })
   },
   /**
