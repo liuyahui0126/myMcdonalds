@@ -44,30 +44,30 @@
 
 ## 2018/02/07      
 ### flex布局（6个属性）        
-  ##### flex-direction
+##### flex-direction
   设置布局方向：     
   column/column-reverse/row/row-reverse           
   含有reverse的是逆序          
-  ##### flex-wrap
+##### flex-wrap
   设置是否换行          
   wrap/nowrap（默认，不换行）/wrap-reverse（第一行在下面，逆序）        
-  ##### flex-flow
+##### flex-flow
   flex-flow: <flex-direction> || <flex-wrap>;   
   默认是row||nowrap     
-  ##### justify-content
+##### justify-content
   space-between（两端对齐，项目之间的间隔相等）        
   /space-around（项目两侧间隔相等）         
   /flex-start（默认值，左对齐）          
   /flex-end（默认值，右对齐）          
   /center（居中）           
-  ##### align-items
+##### align-items
   交叉轴的对齐方式：          
   flex-start（交叉轴的起点对齐）          
   flex-end（交叉轴的终点对齐）          
   center（交叉轴的中点对齐）           
   baseline（项目的第一行文字的基线对齐）           
   stretch（默认值，如果项目未设置高度或设为auto，将占满整个容器的高度）               
-  ##### align-content
+##### align-content
   多个交叉轴对齐方式：             
   flex-start：与交叉轴的起点对齐。   
   flex-end：与交叉轴的终点对齐。                
