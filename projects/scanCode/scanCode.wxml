@@ -1,1 +1,57 @@
 <!--projects/scanCode/scanCode.wxml-->
+<view class='container'>
+<!--head  -->
+  <view class='header'>
+    <view class='avatarPic'>
+      <image src='{{avatarUrl}}'></image>
+    </view>
+    <view class='text'>
+      <text class='nickName'>{{nickName}}</text>
+      <text class='score'>累计积分{{score.all}} 可用积分{{score.leave}}</text>
+      <image src='/images/questionicon.png'></image>
+    </view>
+    <view class="miniCode">
+      <image src='/images/qrcodeSmall.png'></image>
+    </view>
+  </view>
+<!--body  -->
+  <view class='bodyer'>
+    <view class='introduce'>
+      <text class='next'>离下一个圆筒</text>
+      <view class='scoregap'>
+        <text>————</text>
+        <view class="circle"></view>
+        <text class='gap'>还差39点积分</text>
+        <view class="circle"></view>
+        <text>————</text>
+      </view>
+      <view class='search-score'>
+        <view>
+          <text>柜台手机支付前出示会员码 1元积1分</text>
+        </view>
+        <view>
+          <text>查询积分>></text>
+        </view>
+      </view>
+    </view>
+    <view class='scanCode'>
+      <image src='/images/qrcode.png'></image>
+    </view>
+    <button bindtap='scoreStore'>查看我能兑换什么</button>
+  </view>
+<!--foot  -->
+  <view class="footer">
+    <view class="icon" bindtap='menu'>
+      <image src='{{iconUrl[0]}}'></image>
+      <text class="{{isChange[0]?'same':null}}">首页</text>
+    </view>
+    <view class="icon" bindtap='scanCode'>
+      <image src='{{iconUrl[1]}}'></image>
+      <text class="{{isChange[1]?'same':null}}">我的二维码</text>
+    </view>
+    <view class="icon" bindtap='my'>
+      <image src='{{iconUrl[2]}}'></image>
+      <text class="{{isChange[2]?'same':null}}">个人信息</text>
+    </view>
+  </view>
+</view>

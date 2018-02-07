@@ -39,7 +39,7 @@ Page({
 
     } else {
       wx.redirectTo({
-        url: '../scanCode/scanCode'
+        url: '../my/my'
       })
       this.setData({
         iconUrl: ["/images/mc.png", "/images/scanCode.png", "/images/my-holding.png"],
@@ -51,7 +51,7 @@ Page({
     wx.getStorage({
       key: 'nickName',
       success:  (res) =>{ 
-          wx.navigateTo({
+          wx.redirectTo({
             url: '../scanCode/scanCode',
           })
       },
@@ -60,6 +60,11 @@ Page({
           url: '../scoreLogin/scoreLogin',
         })
       }
+    })
+  },
+  scoreStore:function(){
+    wx.navigateTo({
+      url: '../scoreStore/scoreStore',
     })
   },
   /**

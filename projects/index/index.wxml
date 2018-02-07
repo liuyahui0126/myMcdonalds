@@ -14,7 +14,7 @@
       <image src='{{listImgUrl[0]}}'></image>
       <text>我要积分</text>
     </view>
-    <view class="list">
+    <view class="list" bindtap='scoreStore'>
       <image src='{{listImgUrl[1]}}'></image>
       <text>积分商城</text>
     </view>

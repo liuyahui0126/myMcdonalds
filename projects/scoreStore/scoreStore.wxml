@@ -1,0 +1,9 @@
+<!--projects/scoreStore/scoreStore.wxml-->
+<view class='container'>
+  <view class='top'>
+  <swiper></swiper>
+  </view>
+  <view class='bottom'>
+    <image src='/images/turnPage.png'></image>
+  </view>
+</view>

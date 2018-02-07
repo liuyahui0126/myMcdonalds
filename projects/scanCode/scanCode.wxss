@@ -1,1 +1,140 @@
 /* projects/scanCode/scanCode.wxss */
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.header {
+  flex: 2;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .avatarPic {
+  flex: 2;
+  display: inline-block;
+  margin: 10px 0 0 10px;
+}
+
+.header .avatarPic image {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+.header .text {
+  flex: 8;
+  display: inline;
+  margin: 30px 30px 0 20px;
+}
+
+.header .text .nickName {
+  font-size: 36rpx;
+}
+
+.header .text .score {
+  display: inline-block;
+  font-size: 28rpx;
+}
+
+.header .text image {
+  width: 30rpx;
+  height: 30rpx;
+  display: inline-block;
+  margin: 10rpx 0 0 10rpx;
+}
+
+.header .miniCode {
+  flex: 2;
+  margin: 30px 0 0 0;
+}
+
+.header .miniCode image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-top: 20rpx;
+}
+.bodyer{
+  flex: 10;
+}
+.bodyer .introduce{
+  margin-top: 30px;
+  text-align: center;
+}
+.bodyer .introduce .next{
+  display: block;
+}
+.bodyer .introduce .gap{
+  margin-top: 20rpx;
+  font-size: 42rpx;
+  font-weight: 700;
+}
+.bodyer .introduce .circle{
+  display: inline-block;
+  margin-bottom: 2px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #000;
+}
+.bodyer .introduce .scoregap{
+  margin-top: 15rpx;
+}
+.bodyer .introduce .search-score{
+  margin-top: 15rpx;
+  display: flex;
+  font-size: 28rpx;
+  justify-content: space-between;
+}
+.bodyer .introduce .search-score view:nth-of-type(1){
+  flex: 7;
+}
+.bodyer .introduce .search-score view:nth-of-type(2){
+  flex: 3;
+}
+.bodyer .scanCode image{
+  width: 60%;
+  height: 450rpx;
+  position: relative;
+  left: 20%;
+  margin: 10px 0 10px 0;
+}
+.bodyer button{
+  width: 90%;
+  position: relative;
+  background-color: #ffc324;
+}
+.footer {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 200rpx;
+  margin-top: 10rpx;
+}
+
+.footer .icon {
+  text-align: center;
+  flex: 1;
+}
+
+.footer .icon image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.footer .icon text {
+  display: block;
+  font-size: 20rpx;
+}
+
+.footer .icon .same {
+  color: #ffc324;
+}

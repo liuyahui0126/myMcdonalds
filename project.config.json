@@ -51,6 +51,12 @@
 					"name": "registerInfo",
 					"pathName": "projects/registerInfo/registerInfo",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "scoreStore",
+					"pathName": "projects/scoreStore/scoreStore",
+					"query": ""
 				}
 			]
 		}

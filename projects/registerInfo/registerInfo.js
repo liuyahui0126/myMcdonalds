@@ -62,6 +62,22 @@ Page({
         })
       }
     })
+    wx.getStorage({
+      key: 'sexIndex',
+      success: (res)=> {
+        this.setData({
+          sexIndex:res.data
+        })
+      },
+    })
+    wx.getStorage({
+      key: 'coIndex',
+      success: (res)=> {
+        this.setData({
+          coIndex: res.data
+        })
+      },
+    })
   },
 
   /**
