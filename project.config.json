@@ -57,6 +57,18 @@
 					"name": "scoreStore",
 					"pathName": "projects/scoreStore/scoreStore",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "scoreStore",
+					"pathName": "projects/scoreStore/scoreStore",
+					"query": ""
+				},
+				{
+					"id": 6,
+					"name": "my",
+					"pathName": "projects/my/my",
+					"query": ""
 				}
 			]
 		}

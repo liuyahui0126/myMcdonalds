@@ -5,7 +5,51 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    iconUrl: ["/images/mc.png", "/images/scanCode.png", "/images/my-holding.png"],
+    isChange: [false, false, true]
+  },
+  menu: function () {
+    if (this.data.iconUrl[0] == "/images/mc-holding.png") {
+    } else {
+      wx.redirectTo({
+        url: '../index/index'
+      })
+      this.setData({
+        iconUrl: ["/images/mc-holding.png", "/images/scanCode.png", "/images/my.png"],
+        isChange: [true, false, false]
+      })
+    }
+  },
+  scanCode: function () {
+    if (this.data.iconUrl[0] == "/images/scanCode-holding.png") {
+
+    } else {
+      wx.redirectTo({
+        url: '../scanCode/scanCode'
+      })
+      this.setData({
+        iconUrl: ["/images/mc.png", "/images/scanCode-holding.png", "/images/my.png"],
+        isChange: [false, true, false]
+      })
+    }
+  },
+  my: function () {
+    if (this.data.iconUrl[0] == "/images/my-holding.png") {
+
+    } else {
+      wx.redirectTo({
+        url: '../my/my'
+      })
+      this.setData({
+        iconUrl: ["/images/mc.png", "/images/scanCode.png", "/images/my-holding.png"],
+        isChange: [false, false, true]
+      })
+    }
+  },
+  myInfo:function(){
+  wx.navigateTo({
+    url: '../registerInfo/registerInfo',
+  })
   },
 
   /**

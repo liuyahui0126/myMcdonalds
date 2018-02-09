@@ -2,7 +2,7 @@
 <view class='container'>
 <!--head  -->
   <view class='header'>
-    <view class='avatarPic'>
+    <view class='avatarPic'  bindtap='login'>
       <image src='{{avatarUrl}}'></image>
     </view>
     <view class='text'>
@@ -21,7 +21,7 @@
       <view class='scoregap'>
         <text>————</text>
         <view class="circle"></view>
-        <text class='gap'>还差39点积分</text>
+        <text class='gap'>还差{{gapScore}}积分</text>
         <view class="circle"></view>
         <text>————</text>
       </view>
@@ -37,7 +37,7 @@
     <view class='scanCode'>
       <image src='/images/qrcode.png'></image>
     </view>
-    <button bindtap='scoreStore'>查看我能兑换什么</button>
+    <button bindtap='scoreStore'  disabled="{{btnChecked}}">查看我能兑换什么</button>
   </view>
 <!--foot  -->
   <view class="footer">

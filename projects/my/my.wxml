@@ -1,2 +1,48 @@
 <!--projects/my/my.wxml-->
-<text>projects/my/my.wxml</text>
+<view class='container'>
+<view class='header'>
+<image src='/images/McDonaldLogo.png'></image>
+</view>
+<view class='showder'>
+  <view class='info '  bindtap='myInfo'>
+  <view class='text'>麦享会会员信息</view>
+  <view class='arrow'></view>
+  </view>
+    <view class='info '>
+  <view class='text'>童乐会会员信息</view>
+  <view class='arrow'></view>
+  </view>
+</view>
+<view class='bodyer'>
+  <view class='list'>
+  <view class='listText'>常见问题</view>
+  <view class='arrow'></view>
+  </view>
+    <view class='list'>
+  <view class='listText'>积分规则</view>
+  <view class='arrow'></view>
+  </view>
+    <view class='list'>
+  <view class='listText'>使用条款</view>
+  <view class='arrow'></view>
+  </view>
+    <view class='list'>
+  <view class='listText'>隐私权限政策</view>
+  <view class='arrow'></view>
+  </view>
+</view>
+<view class="footer">
+  <view class="icon" bindtap='menu'>
+    <image src='{{iconUrl[0]}}'></image>
+    <text class="{{isChange[0]?'same':null}}">首页</text>
+  </view>
+  <view class="icon" bindtap='scanCode'>
+    <image src='{{iconUrl[1]}}'></image>
+    <text class="{{isChange[1]?'same':null}}">我的二维码</text>
+  </view>
+  <view class="icon" bindtap='my'>
+    <image src='{{iconUrl[2]}}'></image>
+    <text class="{{isChange[2]?'same':null}}">个人信息</text>
+  </view>
+</view>
+</view>

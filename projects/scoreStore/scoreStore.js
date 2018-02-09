@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    imgUrls: ['/images/turnPage1.png', '/images/turnPage2.png', '/images/turnPage3.png']
   },
 
   /**

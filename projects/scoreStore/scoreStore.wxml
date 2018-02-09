@@ -1,9 +1,13 @@
 <!--projects/scoreStore/scoreStore.wxml-->
 <view class='container'>
   <view class='top'>
-  <swiper></swiper>
+    <swiper indicator-dots='true' indicator-active-color='#ffc324' autoplay interval='2000' circular='true'>
+        <swiper-item  wx:for="{{imgUrls}}">
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+    </swiper>
   </view>
   <view class='bottom'>
-    <image src='/images/turnPage.png'></image>
+     <view  id='future'><image src='/images/turnPage.png'></image></view>
   </view>
 </view>
