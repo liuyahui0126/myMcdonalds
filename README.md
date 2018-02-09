@@ -77,4 +77,14 @@
   stretch（默认值）：轴线占满整个交叉轴。             
 ##### 使用了很久flex  今天才明白flex是felx-grow，flex-shrink，flex-basis的合并，后两个可以省略。     
 ## 2017/2/9
-
+1.之间写>的时候都直接用符号表示，但是发现符号的开口大小是固定不变的，只能设置字体大小来改变。
+今天写的时候，觉得三角形可以用div画出来，那么>应该也可以，尝试了一下。实现了这个想法。
+![arrowShow](/screenPics/arrowShow.jpg)
+以下是css代码部分：
+![arrowShow](/screenPics/arrow.jpg)
+2.在微信小程序做轮播图觉得实现起来十分麻烦。
+后来上了开发者文档，发现了一个组件--swiper
+提供了许多方法，让轮播图的实现十分简单。
+所以建议微信小程序模拟的过程中还是要多看看开发者文档，防止入坑！
+![arrowShow](/screenPics/swiper.jpg)
+![arrowShow](/screenPics/swiperData.jpg)
