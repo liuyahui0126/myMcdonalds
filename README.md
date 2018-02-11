@@ -76,7 +76,7 @@
   space-around：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。        
   stretch（默认值）：轴线占满整个交叉轴。             
 ##### 使用了很久flex  今天才明白flex是felx-grow，flex-shrink，flex-basis的合并，后两个可以省略。     
-## 2017/2/9
+## 2018/02/09
 ### 1.div画>
 之间写>的时候都直接用符号表示，但是发现符号的开口大小是固定不变的，只能设置字体大小来改变。  
 今天写的时候，觉得三角形可以用div画出来，那么>应该也可以，尝试了一下。实现了这个想法。  
@@ -89,4 +89,11 @@
 提供了许多方法，让轮播图的实现十分简单。     
 所以建议微信小程序模拟的过程中还是要多看看开发者文档，防止入坑！    
 ![arrowShow](/screenPics/swiper.jpg)    
-![arrowShow](/screenPics/swiperData.jpg)     
+![arrowShow](/screenPics/swiperData.jpg)     
+## 2018/02/11  
+### 1.通过url传值
+在用了swiper轮播图之后，想要获取当前点击图片的index，一开始想的是获取之后存入stroage，但是后来想到浏览器url可以直接传值，所以换了一种方法。   
+在这里就不介绍stroage的方法了。直接上图   
+![arrowShow](/screenPics/urlIndex.jpg)     
+![arrowShow](/screenPics/urlGet.jpg)      
+![arrowShow](/screenPics/urlSet.jpg)      
