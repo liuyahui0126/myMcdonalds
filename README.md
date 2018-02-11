@@ -3,7 +3,6 @@
 ## 详细界面可以在screen之中查看 这里就不放全部了  
 ![index](/screen/index.jpg)
 ![scanCode](/screen/scanCode.jpg)
-![scanCode](/screen/my.jpg)
 
 ## 2018/02/02
 ###   1. 跳转页面时改变css样式
