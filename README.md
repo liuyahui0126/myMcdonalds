@@ -1,6 +1,10 @@
 # myMcdonalds
-模拟微信小程序麦当劳
-### 做了ofo之后觉得微信小程序很有趣，今天开始模拟一下麦当劳，顺便巩固一下知识
+模拟微信小程序麦当劳  
+## 详细界面可以在screen之中查看 这里就不放全部了  
+![index](/screen/index.jpg)
+![scanCode](/screen/scanCode.jpg)
+![scanCode](/screen/my.jpg)
+
 ## 2018/02/02
 ###   1. 跳转页面时改变css样式
          由于微信小程序不能获取dom节点，在redirectTo的时候就不能将css样式直接改变，
