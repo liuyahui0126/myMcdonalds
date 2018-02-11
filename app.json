@@ -6,7 +6,8 @@
     "projects/scoreLogin/scoreLogin",
     "projects/register/register",
     "projects/registerInfo/registerInfo",
-    "projects/scoreStore/scoreStore"
+    "projects/scoreStore/scoreStore",
+    "projects/details/details"
   ],
   "window": {
     "navigationBarBackgroundColor": "#000",

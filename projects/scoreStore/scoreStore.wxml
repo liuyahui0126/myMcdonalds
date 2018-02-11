@@ -1,9 +1,9 @@
 <!--projects/scoreStore/scoreStore.wxml-->
 <view class='container'>
   <view class='top'>
-    <swiper indicator-dots='true' indicator-active-color='#ffc324' autoplay interval='2000' circular='true'>
+    <swiper indicator-dots='true' indicator-active-color='#ffc324' autoplay interval='2000' circular='true' current='0' bindchange='bindchange'>
         <swiper-item  wx:for="{{imgUrls}}">
-          <image src="{{item}}" class="slide-image"/>
+          <image src="{{item}}"  bindtap="details" class="slide-image"/>
         </swiper-item>
     </swiper>
   </view>

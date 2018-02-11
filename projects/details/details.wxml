@@ -1,0 +1,37 @@
+<!--projects/details/details.wxml-->
+<view class='container'>
+  <view class='header'>
+    <image src='{{imgUrls[index]}}'></image>
+  </view>
+  <view class='bodyer'>
+    <view class='info'>
+      <view class='title'>优惠说明</view>
+      <view class='detailInfo'>以优惠价格{{info[index]}}</view>
+    </view>
+    <view class='info'>
+      <view class='title'>有效期</view>
+      <view class='detailInfo'>领取优惠券的7日内有效（含本日）</view>
+    </view>
+    <view class='info'>
+      <view class='title'>可用时段</view>
+      <view class='detailInfo'>周一至周日 10:30-24:00</view>
+    </view>
+    <view class='info'>
+      <view class='title'>适用门店</view>
+      <view class='detailInfo sp'>查看附近使用的餐厅 >></view>
+    </view>
+    <view class='info'>
+      <view class='title'>使用须知</view>
+      <view class='detailInfo'>
+      <view class="circle">本优惠券不可与餐厅其他优惠券同时使用；</view>
+      <view class="circle">本优惠券仅限中国大陆地区指定的麦当劳母店柜台使用，但得来速车道、独立甜品站，独立麦咖啡等非柜台渠道除外，具体以店内公式为准；</view>
+      <view class="circle">本优惠券不使用于网上/手机App订餐、外送、餐厅自助点餐机等渠道使用；</view>
+      <view class="circle">本优惠券涂改或损坏无效，食品以实物为准，图片仅供参考；</view>
+      <view class="circle">除食物外，其他物品（包括容器）不在售卖范围内。</view>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <button bindtap='charge'>现在就兑换</button>
+  </view>
+</view>

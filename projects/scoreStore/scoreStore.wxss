@@ -9,7 +9,7 @@
   height: 250px;
 }
 .top swiper image,
-.bottom image{
+.bottom #future image{
   width: 90%;
   height: 190px;
   position: relative;
@@ -17,9 +17,6 @@
   top: 10%;
 }
 .bottom{
-  width: 90%;
-  position: relative;
-  left: 5%;
   border-top: 1px solid #ddd;
 }
 .bottom #future{

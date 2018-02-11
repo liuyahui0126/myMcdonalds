@@ -69,6 +69,12 @@
 					"name": "my",
 					"pathName": "projects/my/my",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "details",
+					"pathName": "projects/details/details",
+					"query": ""
 				}
 			]
 		}
