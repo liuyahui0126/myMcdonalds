@@ -94,12 +94,14 @@
 ![arrowShow](/screenPics/swiper.jpg)    
 ![arrowShow](/screenPics/swiperData.jpg)     
 ## 2018/02/11  
-### 1.通过url传值
-在用了swiper轮播图之后，想要获取当前点击图片的index，一开始想的是获取之后存入stroage，但是后来想到浏览器url可以直接传值，所以换了一种方法。   
-在这里就不介绍stroage的方法了。直接上图  
-##### 获取index   ->  e.detail.current  
-![arrowShow](/screenPics/urlIndex.jpg)   
-#####  将index写入url  
-![arrowShow](/screenPics/urlGet.jpg)    
-#####  将url中的index读取   
-![arrowShow](/screenPics/urlSet.jpg)      
+### 1.通过url传值    
+在用了swiper轮播图之后，想要获取当前点击图片的index，一开始想的是获取之后存入stroage，但是后来想到浏览器url可以直接传值，所以换了一种方法。      
+在这里就不介绍stroage的方法了。直接上图      
+##### 获取index   ->  e.detail.current       
+![arrowShow](/screenPics/urlIndex.jpg)      
+#####  将index写入url    
+![arrowShow](/screenPics/urlSet.jpg)         
+ 
+#####  将url中的index读取     
+![arrowShow](/screenPics/urlGet.jpg)       
+
